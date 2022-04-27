@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.073c9b0a.css",
-    "main.js": "/react-gh-pages/static/js/main.100650f1.js",
-    "static/js/787.841e67a2.chunk.js": "/react-gh-pages/static/js/787.841e67a2.chunk.js",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.073c9b0a.css.map": "/react-gh-pages/static/css/main.073c9b0a.css.map",
-    "main.100650f1.js.map": "/react-gh-pages/static/js/main.100650f1.js.map",
-    "787.841e67a2.chunk.js.map": "/react-gh-pages/static/js/787.841e67a2.chunk.js.map"
+    "main.css": "/my-portfolio-hci/static/css/main.073c9b0a.css",
+    "main.js": "/my-portfolio-hci/static/js/main.2a48f364.js",
+    "static/js/787.841e67a2.chunk.js": "/my-portfolio-hci/static/js/787.841e67a2.chunk.js",
+    "static/media/logo.svg": "/my-portfolio-hci/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/my-portfolio-hci/index.html",
+    "main.073c9b0a.css.map": "/my-portfolio-hci/static/css/main.073c9b0a.css.map",
+    "main.2a48f364.js.map": "/my-portfolio-hci/static/js/main.2a48f364.js.map",
+    "787.841e67a2.chunk.js.map": "/my-portfolio-hci/static/js/787.841e67a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.100650f1.js"
+    "static/js/main.2a48f364.js"
   ]
 }
