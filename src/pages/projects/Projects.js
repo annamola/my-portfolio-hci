@@ -9,22 +9,22 @@ import "./Projects.css";
 // import { style } from "glamor";
 
 function Projects(props) {
-  const theme = props.theme;
+    const theme = props.theme;
 
-  // const styles = style({
-  //   backgroundColor: `${theme.accentBright}`,
-  //   ":hover": {
-  //     boxShadow: `0 5px 15px ${theme.accentBright}`,
-  //   },
-  // });
+    // const styles = style({
+    //   backgroundColor: `${theme.accentBright}`,
+    //   ":hover": {
+    //     boxShadow: `0 5px 15px ${theme.accentBright}`,
+    //   },
+    // });
 
-  return (
-    <div className="projects-main">
-      <Header theme={theme} setTheme={props.setTheme} />
-      <div className="basic-projects">
-        <Fade bottom duration={2000} distance="40px">
-          <div className="projects-heading-div">
-            {/* <div className="projects-heading-img-div">
+    return (
+        <div className="projects-main">
+            <Header theme={theme} setTheme={props.setTheme} />
+            <div className="basic-projects">
+                <Fade bottom duration={2000} distance="40px">
+                    <div className="projects-heading-div">
+                        {/* <div className="projects-heading-img-div">
               <ProjectsImg theme={theme} />
             </div>
             <div className="projects-heading-text-div">
@@ -41,22 +41,22 @@ function Projects(props) {
                 {projectsHeader["description"]}
               </p>
             </div> */}
-          </div>
-        </Fade>
-      </div>
-      <div className="repo-cards-div-main">
-        {projects.data.map((repo) => {
-          return <ProjectCard repo={repo} theme={theme} />;
-        })}
-      </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Footer theme={props.theme} onToggle={props.onToggle} />
-    </div>
-  );
+                    </div>
+                </Fade>
+            </div>
+            <div className="repo-cards-div-main">
+                {projects.data.map((repo) => {
+                    return <ProjectCard repo={repo} theme={theme} />;
+                })}
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <Footer theme={props.theme} onToggle={props.onToggle} />
+        </div>
+    );
 }
 
 export default Projects;

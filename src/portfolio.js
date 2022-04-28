@@ -14,7 +14,8 @@ const greeting = {
     logo_name: "Anna Mola",
     nickname: "ania",
     full_name: "Anna Mola",
-    subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
+    subTitle:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus mauris. Ut porttitor leo a diam sollicitudin. Sapien eget mi proin sed libero enim sed faucibus turpis. Ut etiam sit amet nisl purus in mollis nunc sed. Lectus mauris ultrices eros in cursus turpis massa tincidunt dui. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan. Dignissim convallis aenean et tortor at risus. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Aliquet enim tortor at auctor urna nunc. Natoque penatibus et magnis dis parturient montes nascetur. Adipiscing bibendum est ultricies integer quis auctor. Fermentum posuere urna nec tincidunt praesent semper feugiat. Non blandit massa enim nec dui. Magna etiam tempor orci eu lobortis elementum nibh tellus. Sed velit dignissim sodales ut eu sem integer vitae justo. Posuere sollicitudin aliquam ultrices sagittis. Lectus urna duis convallis convallis tellus id interdum velit laoreet. Aliquet nec ullamcorper sit amet risus nullam.",
     resumeLink: "https://docs.google.com/",
     mail: "mailto:annamola12345@gmail.com",
 };
@@ -450,33 +451,34 @@ const projects = {
     data: [
         {
             id: "1",
-            name: "react-twitter-clone",
-            url: "https://github.com/harikanani/react-twitter-clone",
+            name: "Redesigning the Atlanta History Center Mobile Site",
+            url: "https://medium.com/@annamola/designing-for-others-the-atlanta-history-center-9db2f6a095d8",
             description:
-                "A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.",
+                "specifically our group was assigned to design for a group of seniors travelling by RV through America who needed to decided whether they should stop at the Atlanta History Center on their trip to Atlanta. We had to redesign the website of the history center for a mobile screen.",
             languages: [],
         },
         {
             id: "2",
-            name: "node-blockchain",
-            url: "https://github.com/harikanani/node-blockchain",
+            name: "Designing for Understanding: Bechdel Test",
+            url: "https://medium.com/@annamola/designing-for-understanding-bechdel-test-4d6941311641",
             description:
-                "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
+                "We tackled designing visualizations that were created in order to communicate clearly or persuade the viewers toward a certain argument. We decided on using the Next-Bechdel Test dataset from the FiveThirtyEight GitHub repository",
             languages: [],
         },
         {
             id: "3",
-            name: "top-crypto-gainers",
-            url: "https://github.com/harikanani/top-crypto-gainers",
+            name: "Diet Culture: Tackling Tense Topics",
+            url: "https://medium.com/@annamola/diet-culture-tackling-tense-topics-with-chatbots-ff67f2c015f6",
             description:
-                "A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.",
+                "Have you ever been asked a question that made your heart race? Maybe you’ve been presented with an opposing opinion that made you irrationally angry? I’m sure we all have experienced this. Talking about divisive and tense topics can be pretty difficult.",
             languages: [],
         },
         {
             id: "4",
-            name: "personal-portfolio",
-            url: "https://github.com/harikanani/personal-portfolio",
-            description: "A simple command line interface based quiz app to know more about me :).",
+            name: "Incorporating Feedback, Ideating, and Extending",
+            url: "https://medium.com/@annamola/incorporating-feedback-ideating-and-extending-3981d690b882",
+            description:
+                "How we reiterated our original Figma prototype and imagined new possibilities for the Atlanta History Center. If there is one thing I can take away from this Human Computer Interaction course, it’s that feedback and reiteration are key to creating and improving an excellent design.",
             languages: [],
         },
     ],

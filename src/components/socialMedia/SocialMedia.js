@@ -1,11 +1,11 @@
 import React from "react";
 import "./SocialMedia.css";
-import { socialMediaLinks } from "../../portfolio";
+// import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
-  return (
-    <div className="social-media-div">
-      <a
+    return (
+        <div className="social-media-div">
+            {/* <a
         href={socialMediaLinks.github}
         className="icon-button github"
         target="_blank"
@@ -58,7 +58,7 @@ export default function socialMedia() {
       >
         <i className="fab fa-instagram"></i>
         <span></span>
-      </a>
-    </div>
-  );
+      </a> */}
+        </div>
+    );
 }
