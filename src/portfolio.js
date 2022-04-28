@@ -9,26 +9,19 @@ const settings = {
 
 //Home Page
 const greeting = {
-    title: "Hi! 👋.",
+    title: "Hi!",
     title2: "Anna Mola",
     logo_name: "Anna Mola",
     nickname: "ania",
     full_name: "Anna Mola",
-    subTitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus mauris. Ut porttitor leo a diam sollicitudin. Sapien eget mi proin sed libero enim sed faucibus turpis. Ut etiam sit amet nisl purus in mollis nunc sed. Lectus mauris ultrices eros in cursus turpis massa tincidunt dui. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan. Dignissim convallis aenean et tortor at risus. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Aliquet enim tortor at auctor urna nunc. Natoque penatibus et magnis dis parturient montes nascetur. Adipiscing bibendum est ultricies integer quis auctor. Fermentum posuere urna nec tincidunt praesent semper feugiat. Non blandit massa enim nec dui. Magna etiam tempor orci eu lobortis elementum nibh tellus. Sed velit dignissim sodales ut eu sem integer vitae justo. Posuere sollicitudin aliquam ultrices sagittis. Lectus urna duis convallis convallis tellus id interdum velit laoreet. Aliquet nec ullamcorper sit amet risus nullam.",
+    subTitle: "I'm a computer science student interested in human computer interaction and design. ",
     resumeLink: "https://docs.google.com/",
-    mail: "mailto:annamola12345@gmail.com",
+    mail: "mailto:amola@emory.edu",
 };
 
 const socialMediaLinks = {
     /* Your Social Media Link */
     github: "https://github.com/",
-    // linkedin: "https://www.linkedin.com/",
-    // gmail: "annamola12345@gmail.com",
-    // gitlab: "https://gitlab.com/",
-    // facebook: "https://www.facebook.com/",
-    // twitter: "https://twitter.com/",
-    // instagram: "https://www.instagram.com/",
 };
 
 const skills = {

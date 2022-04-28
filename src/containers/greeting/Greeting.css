@@ -28,6 +28,43 @@
     margin-top: 20px;
 }
 
+.waving {
+    animation-name: wave-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(14deg);
+    }
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.greeting-title-div {
+    display: flex;
+}
+
 .greeting-text {
     font-size: 70px;
     line-height: 5px;
@@ -44,7 +81,14 @@
     font-size: 30px;
     line-height: 40px;
     margin-right: 40px;
-    font-family: "Google Sans Medium";
+    font-family: "RobotoSlab-Regular";
+}
+
+.greeting-text-para {
+    font-size: 20px;
+    line-height: 30px;
+    /* margin-right: 40px; */
+    font-family: "RobotoSlab-Regular";
 }
 
 .greeting-image-div > * {
@@ -77,6 +121,10 @@
 
     .greeting-text-p {
         font-size: 20px;
+    }
+
+    .greeting-text-para {
+        font-size: 16px;
     }
 
     .greet-main {
