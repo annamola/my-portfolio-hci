@@ -447,7 +447,7 @@ const projects = {
             name: "Redesigning the Atlanta History Center Mobile Site",
             url: "https://medium.com/@annamola/designing-for-others-the-atlanta-history-center-9db2f6a095d8",
             description:
-                "specifically our group was assigned to design for a group of seniors travelling by RV through America who needed to decided whether they should stop at the Atlanta History Center on their trip to Atlanta. We had to redesign the website of the history center for a mobile screen.",
+                "Our group was assigned to design for a group of seniors traveling by RV through America who needed to decide whether they should stop at the Atlanta History Center on their trip to Atlanta. We had to redesign the website of the history center for a mobile screen.",
             languages: [],
         },
         {
