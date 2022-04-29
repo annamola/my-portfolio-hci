@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio-hci/static/css/main.5fe398bd.css",
-    "main.js": "/my-portfolio-hci/static/js/main.f1be7eb6.js",
+    "main.css": "/my-portfolio-hci/static/css/main.77e7c3f8.css",
+    "main.js": "/my-portfolio-hci/static/js/main.f4fcd2c7.js",
     "static/media/fa-solid-900.svg": "/my-portfolio-hci/static/media/fa-solid-900.decfdcb63165be4a18b6.svg",
     "static/media/fa-brands-400.svg": "/my-portfolio-hci/static/media/fa-brands-400.d21386c92d7f4fbf03dc.svg",
     "static/media/sketch4.png": "/my-portfolio-hci/static/media/sketch4.b93cd87d4c1d00c964c2.png",
@@ -16,6 +16,7 @@
     "static/media/people2.jpeg": "/my-portfolio-hci/static/media/people2.d6b0c3f9f54d8904e6ab.jpeg",
     "static/media/fa-brands-400.eot": "/my-portfolio-hci/static/media/fa-brands-400.b09f783b99c88d6989f7.eot",
     "static/media/fa-brands-400.ttf": "/my-portfolio-hci/static/media/fa-brands-400.ec7723ea62ad74c14959.ttf",
+    "static/media/prototype1.jpg": "/my-portfolio-hci/static/media/prototype1.281e5dfce82dda75ec56.jpg",
     "static/media/RobotoSlab-Black.ttf": "/my-portfolio-hci/static/media/RobotoSlab-Black.43ddeddbec9021b940de.ttf",
     "static/media/RobotoSlab-ExtraBold.ttf": "/my-portfolio-hci/static/media/RobotoSlab-ExtraBold.0a682985e3436b76d639.ttf",
     "static/media/RobotoSlab-SemiBold.ttf": "/my-portfolio-hci/static/media/RobotoSlab-SemiBold.edc7d6de66e751226f27.ttf",
@@ -47,11 +48,11 @@
     "static/media/fa-regular-400.woff": "/my-portfolio-hci/static/media/fa-regular-400.2ccf005a6998d30de3d3.woff",
     "static/media/fa-regular-400.woff2": "/my-portfolio-hci/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
     "index.html": "/my-portfolio-hci/index.html",
-    "main.5fe398bd.css.map": "/my-portfolio-hci/static/css/main.5fe398bd.css.map",
-    "main.f1be7eb6.js.map": "/my-portfolio-hci/static/js/main.f1be7eb6.js.map"
+    "main.77e7c3f8.css.map": "/my-portfolio-hci/static/css/main.77e7c3f8.css.map",
+    "main.f4fcd2c7.js.map": "/my-portfolio-hci/static/js/main.f4fcd2c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fe398bd.css",
-    "static/js/main.f1be7eb6.js"
+    "static/css/main.77e7c3f8.css",
+    "static/js/main.f4fcd2c7.js"
   ]
 }
