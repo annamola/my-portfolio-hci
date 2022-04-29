@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio-hci/static/css/main.5fe398bd.css",
-    "main.js": "/my-portfolio-hci/static/js/main.b93ff627.js",
+    "main.js": "/my-portfolio-hci/static/js/main.f1be7eb6.js",
     "static/media/fa-solid-900.svg": "/my-portfolio-hci/static/media/fa-solid-900.decfdcb63165be4a18b6.svg",
     "static/media/fa-brands-400.svg": "/my-portfolio-hci/static/media/fa-brands-400.d21386c92d7f4fbf03dc.svg",
     "static/media/sketch4.png": "/my-portfolio-hci/static/media/sketch4.b93cd87d4c1d00c964c2.png",
@@ -13,6 +13,7 @@
     "static/media/fa-solid-900.eot": "/my-portfolio-hci/static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot",
     "static/media/fa-solid-900.ttf": "/my-portfolio-hci/static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf",
     "static/media/fa-regular-400.svg": "/my-portfolio-hci/static/media/fa-regular-400.68bba3adb61c08195530.svg",
+    "static/media/people2.jpeg": "/my-portfolio-hci/static/media/people2.d6b0c3f9f54d8904e6ab.jpeg",
     "static/media/fa-brands-400.eot": "/my-portfolio-hci/static/media/fa-brands-400.b09f783b99c88d6989f7.eot",
     "static/media/fa-brands-400.ttf": "/my-portfolio-hci/static/media/fa-brands-400.ec7723ea62ad74c14959.ttf",
     "static/media/RobotoSlab-Black.ttf": "/my-portfolio-hci/static/media/RobotoSlab-Black.43ddeddbec9021b940de.ttf",
@@ -37,6 +38,7 @@
     "static/media/fa-brands-400.woff": "/my-portfolio-hci/static/media/fa-brands-400.dc957891d535aa198135.woff",
     "static/media/fa-solid-900.woff2": "/my-portfolio-hci/static/media/fa-solid-900.4a83f63fd7dd55c4ca85.woff2",
     "static/media/fa-brands-400.woff2": "/my-portfolio-hci/static/media/fa-brands-400.1c638e5f7632ea819e77.woff2",
+    "static/media/people1.png": "/my-portfolio-hci/static/media/people1.f7b334c1869e879d5f2f.png",
     "static/media/sketch6.png": "/my-portfolio-hci/static/media/sketch6.506c93ea9bd72b6278ca.png",
     "static/media/brainstorm1.jpg": "/my-portfolio-hci/static/media/brainstorm1.87afd9a7723fae77bfad.jpg",
     "static/media/reboot.gif": "/my-portfolio-hci/static/media/reboot.5ff8fc818b14c9bb8446.gif",
@@ -46,10 +48,10 @@
     "static/media/fa-regular-400.woff2": "/my-portfolio-hci/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
     "index.html": "/my-portfolio-hci/index.html",
     "main.5fe398bd.css.map": "/my-portfolio-hci/static/css/main.5fe398bd.css.map",
-    "main.b93ff627.js.map": "/my-portfolio-hci/static/js/main.b93ff627.js.map"
+    "main.f1be7eb6.js.map": "/my-portfolio-hci/static/js/main.f1be7eb6.js.map"
   },
   "entrypoints": [
     "static/css/main.5fe398bd.css",
-    "static/js/main.b93ff627.js"
+    "static/js/main.f1be7eb6.js"
   ]
 }
