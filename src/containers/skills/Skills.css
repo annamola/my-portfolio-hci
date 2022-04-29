@@ -13,7 +13,7 @@
     -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    transform: rotate(-2deg);
+
     font-family: "RobotoSlab-Regular";
 }
 
@@ -23,11 +23,17 @@
     margin: 10px 120px 10px 120px;
     font-family: "RobotoSlab-Regular";
 }
-
+.greeting-text-points-bullet {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px 120px 10px 140px;
+    font-family: "RobotoSlab-Regular";
+}
 .skills-main-div {
     display: flex;
 }
 .skills-title {
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 .skills-header {

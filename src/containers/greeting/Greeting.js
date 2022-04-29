@@ -4,20 +4,11 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
-// import { projects } from "../../portfolio.js";
-// import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import { projects } from "../../portfolio.js";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 export default function Greeting(props) {
     const theme = props.theme;
-    // const history = useHistory();
-
-    // const styles = style({
-    //   backgroundColor: `${theme.accentBright}`,
-    //   ":hover": {
-    //     boxShadow: `0 5px 15px ${theme.accentBright}`,
-    //   },
-    // });
-
     return (
         <Fade bottom duration={2000} distance="40px">
             <div className="greet-main" id="greeting">
@@ -71,11 +62,11 @@ export default function Greeting(props) {
                     </div>
                     <div className="greeting-image-div">
                         <FeelingProud theme={theme} />
-                        {/* <div className="repo-cards-div-main">
+                        <div className="repo-cards-div-main">
                             {projects.data.map((repo) => {
                                 return <ProjectCard repo={repo} theme={theme} />;
                             })}
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>
