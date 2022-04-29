@@ -20,13 +20,13 @@
 .greeting-text-points-para {
     font-size: 20px;
     line-height: 30px;
-    margin: 10px 120px 10px 120px;
+    margin: 10px 140px 10px 140px;
     font-family: "RobotoSlab-Regular";
 }
 .greeting-text-points-bullet {
     font-size: 20px;
     line-height: 30px;
-    margin: 10px 120px 10px 140px;
+    margin: 10px 120px 10px 160px;
     font-family: "RobotoSlab-Regular";
 }
 .skills-main-div {

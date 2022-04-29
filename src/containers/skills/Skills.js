@@ -24,7 +24,7 @@ export default function Skills(props) {
                     maybe they're not feasible at all! Each brainstormed idea does not have to stand on its own. Even if
                     the idea isn't the perfect solution, it's important to express the idea because it can help make
                     something work for someone else. Someone's blurt could be the trigger for someone else's awesome
-                    idea. Being fearless in yourbrainstorming allows for the creation of new ideas and new chains of
+                    idea. Being fearless in your brainstorming allows for the creation of new ideas and new chains of
                     thought. This can only be successful in a brainstorming session when the floor is completely open to
                     anything.
                 </p>
@@ -58,7 +58,7 @@ export default function Skills(props) {
                     As you can see above, this is some of the brainstorming I did for some of my design projects. These
                     brainstorm sessions ended up producing our final ideas and helped us explore the many options we
                     had. We weren't afraid to put ideas down. For example, when I brainstormed with my group for the
-                    chatbot, I initally believed the Covid-19 route was the best. Brainstorming helped me realize that
+                    chatbot, I initially believed the Covid-19 route was the best. Brainstorming helped me realize that
                     the diet and food topic was a much for interesting avenue for us to take.
                 </p>
                 <div className="greeting-title-div skills-title " style={{ display: "flex", justifyContent: "center" }}>
@@ -117,7 +117,7 @@ export default function Skills(props) {
                 <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
                     These examples are just a snapshot of the sketches I created recently. As you can see, I focused on
                     communicating what what I wanted to show in very simple drawings. The sketches on the left were
-                    created for a data visulization project. By sketching out ideas for visualization, I wasn't
+                    created for a data visualization project. By sketching out ideas for visualization, I wasn't
                     obstructed by overthinking the actual methods required to create the visual. That's exactly the
                     benefit of sketching! You can freely think{" "}
                     <span style={{ color: theme.accentColor }}>
@@ -145,14 +145,14 @@ export default function Skills(props) {
                     world and examining your subject. Research is very project dependent. For example, when I was
                     designing a chatbot, I had zero experience with ever building one. I was given a set of possible
                     options for technologies. I spent some time looking into each one and thinking realistically about
-                    their feasibility wihtin our timeframe. In the end, we landed on choosing FlowXO for the project
+                    their feasibility within our time frame. In the end, we landed on choosing FlowXO for the project
                     even though we later realized there were some drawbacks to the service. This happens; sometimes you
                     make the best choice as the time and it still isn't the perfect option.
                 </p>
                 <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
                     On the other hand, when I was discovering what areas of Emory's campus were the least or most
                     accessible, I spent real time walking around and investigating. I restricted my use of stairs and
-                    any methods of travelling/getting around that was inaccessible.
+                    any methods of traveling/getting around that was inaccessible.
                 </p>
                 <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
                     All in all, researching is unskippable when designing. I have just gone over technology/background
@@ -191,7 +191,7 @@ export default function Skills(props) {
                     Interaction. Talking to people is key to understanding problems, discovering problems, and designing
                     with real people in mind. The only way you can truly know what others need is by asking questions.
                     Additionally, talking to people outside of your design group is something important to do throughout
-                    the stages of designing. Feedback is also key to redesgning and updating.
+                    the stages of designing. Feedback is also key to redesigning and updating.
                 </p>
                 <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
                     This point was probably the most difficult for me to accept. I am an introvert at heart and I deal
@@ -277,10 +277,50 @@ export default function Skills(props) {
                     <h1 className="greeting-text waving">🔁</h1>
                 </div>
                 <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
-                    I have had to design things so many times in my life. And so have you. Yes, you! Maybe you haven't
+                    When I say updating and redesigning, I'm referring to the iterative design process. The iterative
+                    process was used throughout the different projects I worked on. The most relevant example of the
+                    iterative process is the process we used when designing the mobile website for the Atlanta History
+                    Center. First, we started with just prototypes like the ones below.
                 </p>
+                <div className="skill-image-container-flex">
+                    <div
+                        className="skill-image-container"
+                        style={{ background: theme.projectCard, transform: "rotate(2deg)" }}
+                    >
+                        <img
+                            className="cartoon"
+                            src={require("../../assests/images/sketch5.jpeg")}
+                            alt="sketch3"
+                            width="700px"
+                        />
+                        <p style={{ color: theme.thirdText }}>prototypes for the ticket page</p>
+                    </div>
+                </div>
                 <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
-                    My own personal experience with design has been rocky. I'm an artist and I absolutely love to
+                    This initial sketch/prototype was our first iteration. I was able to loosely iterate within my own
+                    sketches. Next, we created a more official prototype with Figma. This prototype was our second
+                    iteration. Our third iteration came when we collected feedback and integrated the feedback into an
+                    adjustment for the third iteration. I learned through this process that repeating and reiterating
+                    kept improving our design. We were able to hone in on problems we didn't see and flesh out areas we
+                    had never even thought of.
+                </p>
+                <div className="skill-image-container-flex">
+                    <div
+                        className="skill-image-container"
+                        style={{ background: theme.projectCard, transform: "rotate(-2deg)" }}
+                    >
+                        <img
+                            className="cartoon"
+                            src={require("../../assests/images/prototype1.jpg")}
+                            alt="sketch3"
+                            width="700px"
+                        />
+                        <p style={{ color: theme.thirdText }}>third iteration design for the ticket page</p>
+                    </div>
+                </div>
+                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
+                    Additionally, when I was redesigning the airplane seat screen, I also used this iterative design
+                    process as you can see in the image below. I took my original sketches and refined them.
                 </p>
                 <div className="skill-image-container-flex">
                     <div
@@ -322,12 +362,33 @@ export default function Skills(props) {
                         <p style={{ color: theme.thirdText }}>redesign of previous sketches</p>
                     </div>
                 </div>
+                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
+                    Overall, designing iteratively provided many benefits.
+                </p>
+                <p className="greeting-text-points-bullet paragraph" style={{ color: theme.thirdText }}>
+                    ➕ user feedback - user testing and feedback helped me understand what parts of my design worked and
+                    what didn't
+                </p>
+                <p className="greeting-text-points-bullet paragraph" style={{ color: theme.thirdText }}>
+                    ➕ less overwhelming - by breaking the process down into iterations, it was a lot less overwhelming
+                    and easier to focus on elements when they needed attention
+                </p>
+                <p className="greeting-text-points-bullet paragraph" style={{ color: theme.thirdText }}>
+                    ➕ usability - it just makes sense, the more you iterate the better you refine your design!
+                </p>
+                <p className="greeting-text-points-bullet paragraph" style={{ color: theme.thirdText }}>
+                    ➕ efficiency - improving as we went along let us provide a design when it was needed, but still
+                    allowed us to have the flexibility to change and update
+                </p>
                 <div className="greeting-title-div skills-title " style={{ display: "flex", justifyContent: "center" }}>
                     <h1 className="greeting-text">In Conclusion...</h1>
-                    <h1 className="greeting-text waving">🔁</h1>
                 </div>
                 <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
-                    I have had to design things so many times in my life. And so have you. Yes, you! Maybe you haven't
+                    Learning more about the concepts behind Human Computer Interaction helped me refine my own design
+                    process. I was able to take what I learned in class and apply it to my projects. The most satisfying
+                    part was that these principles gave the results they promised. By spending time on the iterative
+                    process and encouraging ideation, I was able to see improvements in my designs. I hope to continue
+                    refining my skills and process as I continue learning more. Here's to creating 🍷.
                 </p>
             </div>
         </div>
