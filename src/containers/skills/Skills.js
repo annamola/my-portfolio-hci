@@ -88,7 +88,6 @@ export default function Skills(props) {
                 <p className="greeting-text-points-bullet paragraph" style={{ color: theme.thirdText }}>
                     ➕ create them alongside your brainstorming - the two processes go hand in hand
                 </p>
-
                 <div className="skill-image-container-flex">
                     <div
                         className="skill-image-container"
@@ -116,7 +115,7 @@ export default function Skills(props) {
                     </div>
                 </div>
                 <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
-                    These examples are just a snapchot of the sketches I created recently. As you can see, I focused on
+                    These examples are just a snapshot of the sketches I created recently. As you can see, I focused on
                     communicating what what I wanted to show in very simple drawings. The sketches on the left were
                     created for a data visulization project. By sketching out ideas for visualization, I wasn't
                     obstructed by overthinking the actual methods required to create the visual. That's exactly the
@@ -128,7 +127,6 @@ export default function Skills(props) {
                     way to show others what you're thinking. Sometimes in brainstorming, it's hard to understand and
                     communicate your idea just with words. Sketching aids and fixes that problem.
                 </p>
-
                 <div className="greeting-title-div skills-title " style={{ display: "flex", justifyContent: "center" }}>
                     <h1 className="greeting-text">Do Your Research</h1>
                     <h1 className="greeting-text waving">🔬</h1>
@@ -144,95 +142,103 @@ export default function Skills(props) {
                     Researching is key to discovering what is feasible. In brainstorming and sketching, we were able to
                     think with no obstacles. Now it's time to be realistic and discover what has been done before and
                     what technologies and skills are required. Researching can also just involve going out into the
-                    world and examining. Research is very project dependent. For example, when I was designing a
-                    chatbot, I had zero experience with ever building one. I was given a set of possible options for
-                    technologies.
+                    world and examining your subject. Research is very project dependent. For example, when I was
+                    designing a chatbot, I had zero experience with ever building one. I was given a set of possible
+                    options for technologies. I spent some time looking into each one and thinking realistically about
+                    their feasibility wihtin our timeframe. In the end, we landed on choosing FlowXO for the project
+                    even though we later realized there were some drawbacks to the service. This happens; sometimes you
+                    make the best choice as the time and it still isn't the perfect option.
+                </p>
+                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
+                    On the other hand, when I was discovering what areas of Emory's campus were the least or most
+                    accessible, I spent real time walking around and investigating. I restricted my use of stairs and
+                    any methods of travelling/getting around that was inaccessible.
+                </p>
+                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
+                    All in all, researching is unskippable when designing. I have just gone over technology/background
+                    research and observable research. In Amy J. Ko's' Design Methods, she writes about different modes
+                    of communicating with others in order to understand problems.
+                </p>
+                <p className="greeting-text-points-bullet paragraph" style={{ color: theme.thirdText }}>
+                    ➕ Surveys communicate with people in a structured, asynchronous, impersonal way, getting you large
+                    scale insight, but in a way that can be unintentionally overly structured, biased on who responds,
+                    and shallow in insight.
+                </p>
+                <p className="greeting-text-points-bullet paragraph" style={{ color: theme.thirdText }}>
+                    ➕ Interviews communicate with people in a synchronous, personal, semi-structured way, getting you
+                    deeper insights —assuming you have established good rapport— but at the cost of more time and a
+                    smaller range of people.
+                </p>
+                <p className="greeting-text-points-bullet paragraph" style={{ color: theme.thirdText }}>
+                    ➕ Observations communicate with people by connecting you with their spaces, their practices, their
+                    collaborations, and their communication with others, revealing the inherent richness and complexity
+                    of their world, but with an even greater time commitment than interviews.
+                </p>
+                <p className="greeting-text-points-bullet paragraph" style={{ color: theme.thirdText }}>
+                    ➕ Secondary research does not communicate with people, but leverages insights that others have
+                    gained from communicating with people, and published in research papers, books, and other sources.
+                </p>
+                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
+                    All of these are ways you can conduct research.
                 </p>
                 <div className="greeting-title-div skills-title " style={{ display: "flex", justifyContent: "center" }}>
+                    <h1 className="greeting-text">Talk to People</h1>
+                    <h1 className="greeting-text waving">🗣️</h1>
+                </div>
+                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
+                    This point ties in a lot with doing research. Let me remind what we're talking about here: Human
+                    Computer Interaction. Yes, <span style={{ color: theme.accentColor }}> HUMAN</span> Computer
+                    Interaction. Talking to people is key to understanding problems, discovering problems, and designing
+                    with real people in mind. The only way you can truly know what others need is by asking questions.
+                    Additionally, talking to people outside of your design group is something important to do throughout
+                    the stages of designing. Feedback is also key to redesgning and updating.
+                </p>
+                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
+                    This point was probably the most difficult for me to accept. I am an introvert at heart and I deal
+                    with some intense social anxiety sometimes. It was really hard for me to gather the courage to ask
+                    people for help. The best advice I got was: the worst thing that can happen is they say no.
+                </p>
+                <div className="skill-image-container-flex">
+                    <div
+                        className="skill-image-container"
+                        style={{ background: theme.projectCard, transform: "rotate(2deg)" }}
+                    >
+                        <img
+                            className="cartoon"
+                            src={require("../../assests/images/people1.png")}
+                            alt="brainstorm1"
+                            width="500px"
+                        />
+                        <p style={{ color: theme.thirdText }}>survey feedback about our mobile site redesign</p>
+                    </div>
+                    <div
+                        className="skill-image-container"
+                        style={{ background: theme.projectCard, transform: "rotate(-2deg)" }}
+                    >
+                        <img
+                            className="cartoon"
+                            src={require("../../assests/images/people2.jpeg")}
+                            alt="brainstorm1"
+                            width="500px"
+                        />
+                        <p style={{ color: theme.thirdText }}>Wizard of Oz evaluation over iMessage</p>
+                    </div>
+                </div>
+                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
+                    One way you can avoid too many social interactions is by using technology to aid your interactions.
+                    This way you get the benefit of needfinding or feedback without the awkwardness of real life
+                    socialization. For example, when we wanted to receive feedback for our Atlanta History Center mobile
+                    site, we asked people to fill out a survey. This survey also gave us some quantitative and
+                    qualitative data about the effectiveness of our design. Additionally, when I wanted to evaluate the
+                    effectiveness of our conversation flow for our chatbot, I performed a Wizard of Oz evaluation with a
+                    friend of mine over iMessage.
+                </p>
+                {/* <div className="greeting-title-div skills-title " style={{ display: "flex", justifyContent: "center" }}>
                     <h1 className="greeting-text">Test, Test, Test! </h1>
                     <h1 className="greeting-text waving">🔨</h1>
                 </div>
-                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
-                    I have had to design things so many times in my life. And so have you. Yes, you! Maybe you haven't
-                    really thought about it much, but you have designed so much. Did you ever make a poster for the time
-                    you ran for student council or had to remind everyone about your upcoming bake sale? Beyond
-                    advertisement, think about every power point you've made or even every poster board you've touched.
-                    You've created so many things and sooner or later you might've discovered a process. Or maybe you
-                    tried something new and realized it worked so much better. Either way you learned and evolved and
-                    found a design process!
-                </p>
-                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
-                    My own personal experience with design has been rocky. I'm an artist and I absolutely love to
-                    create. All my life I've been drawing, tracing, painting, sketching - you name it. However, specific
-                    to design, I have had quite a rough time with either not following the rules at all or following the
-                    rules too much. More recently, I've learned more about the principles and research behind
-                    Human-Computer Design. I've come to understand why our brains work the way they do and why following
-                    some rules and design patterns is beneficial to my own process.
-                </p>
-                <div className="skill-image-container-flex">
-                    <div className="skill-image-container" style={{ background: theme.projectCard }}>
-                        <img
-                            className="cartoon"
-                            src={require("../../assests/images/brainstorm1.jpg")}
-                            alt="brainstorm1"
-                            width="500px"
-                        />
-                        <p style={{ color: theme.thirdText }}>Our brainstorming for the Atlanta History Center</p>
-                    </div>
-                </div>
-                <div className="greeting-title-div skills-title " style={{ display: "flex", justifyContent: "center" }}>
-                    <h1 className="greeting-text">Step Away</h1>
-                    <h1 className="greeting-text waving">🚶</h1>
-                </div>
-                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
-                    I have had to design things so many times in my life. And so have you. Yes, you! Maybe you haven't
-                    really thought about it much, but you have designed so much. Did you ever make a poster for the time
-                    you ran for student council or had to remind everyone about your upcoming bake sale? Beyond
-                    advertisement, think about every power point you've made or even every poster board you've touched.
-                    You've created so many things and sooner or later you might've discovered a process. Or maybe you
-                    tried something new and realized it worked so much better. Either way you learned and evolved and
-                    found a design process!
-                </p>
-                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
-                    My own personal experience with design has been rocky. I'm an artist and I absolutely love to
-                    create. All my life I've been drawing, tracing, painting, sketching - you name it. However, specific
-                    to design, I have had quite a rough time with either not following the rules at all or following the
-                    rules too much. More recently, I've learned more about the principles and research behind
-                    Human-Computer Design. I've come to understand why our brains work the way they do and why following
-                    some rules and design patterns is beneficial to my own process.
-                </p>
-                <div className="skill-image-container-flex">
-                    <div className="skill-image-container" style={{ background: theme.projectCard }}>
-                        <img
-                            className="cartoon"
-                            src={require("../../assests/images/brainstorm1.jpg")}
-                            alt="brainstorm1"
-                            width="500px"
-                        />
-                        <p style={{ color: theme.thirdText }}>Our brainstorming for the Atlanta History Center</p>
-                    </div>
-                </div>
-                <div className="greeting-title-div skills-title " style={{ display: "flex", justifyContent: "center" }}>
-                    <h1 className="greeting-text">Don't Design for Yourself</h1>
-                    <h1 className="greeting-text waving">🚫</h1>
-                </div>
-                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
-                    I have had to design things so many times in my life. And so have you. Yes, you! Maybe you haven't
-                    really thought about it much, but you have designed so much. Did you ever make a poster for the time
-                    you ran for student council or had to remind everyone about your upcoming bake sale? Beyond
-                    advertisement, think about every power point you've made or even every poster board you've touched.
-                    You've created so many things and sooner or later you might've discovered a process. Or maybe you
-                    tried something new and realized it worked so much better. Either way you learned and evolved and
-                    found a design process!
-                </p>
-                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
-                    My own personal experience with design has been rocky. I'm an artist and I absolutely love to
-                    create. All my life I've been drawing, tracing, painting, sketching - you name it. However, specific
-                    to design, I have had quite a rough time with either not following the rules at all or following the
-                    rules too much. More recently, I've learned more about the principles and research behind
-                    Human-Computer Design. I've come to understand why our brains work the way they do and why following
-                    some rules and design patterns is beneficial to my own process.
-                </p>
+                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}></p>
+                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}></p>
                 <div className="skill-image-container-flex">
                     <div className="skill-image-container" style={{ background: theme.projectCard }}>
                         <img
@@ -246,25 +252,14 @@ export default function Skills(props) {
                 </div>
 
                 <div className="greeting-title-div skills-title " style={{ display: "flex", justifyContent: "center" }}>
-                    <h1 className="greeting-text">Don't Be Afraid to Redesign</h1>
-                    <h1 className="greeting-text waving">🔁</h1>
+                    <h1 className="greeting-text">Don't Design for Yourself</h1>
+                    <h1 className="greeting-text waving">🚫</h1>
                 </div>
                 <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
                     I have had to design things so many times in my life. And so have you. Yes, you! Maybe you haven't
-                    really thought about it much, but you have designed so much. Did you ever make a poster for the time
-                    you ran for student council or had to remind everyone about your upcoming bake sale? Beyond
-                    advertisement, think about every power point you've made or even every poster board you've touched.
-                    You've created so many things and sooner or later you might've discovered a process. Or maybe you
-                    tried something new and realized it worked so much better. Either way you learned and evolved and
-                    found a design process!
                 </p>
                 <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
-                    My own personal experience with design has been rocky. I'm an artist and I absolutely love to
-                    create. All my life I've been drawing, tracing, painting, sketching - you name it. However, specific
-                    to design, I have had quite a rough time with either not following the rules at all or following the
-                    rules too much. More recently, I've learned more about the principles and research behind
-                    Human-Computer Design. I've come to understand why our brains work the way they do and why following
-                    some rules and design patterns is beneficial to my own process.
+                    My own personal experience with design has been rocky. I'm an artist and I absolutely love to c
                 </p>
                 <div className="skill-image-container-flex">
                     <div className="skill-image-container" style={{ background: theme.projectCard }}>
@@ -276,7 +271,64 @@ export default function Skills(props) {
                         />
                         <p style={{ color: theme.thirdText }}>Our brainstorming for the Atlanta History Center</p>
                     </div>
+                </div> */}
+                <div className="greeting-title-div skills-title " style={{ display: "flex", justifyContent: "center" }}>
+                    <h1 className="greeting-text">Keep Updating and Redesigning</h1>
+                    <h1 className="greeting-text waving">🔁</h1>
                 </div>
+                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
+                    I have had to design things so many times in my life. And so have you. Yes, you! Maybe you haven't
+                </p>
+                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
+                    My own personal experience with design has been rocky. I'm an artist and I absolutely love to
+                </p>
+                <div className="skill-image-container-flex">
+                    <div
+                        className="skill-image-container"
+                        style={{ background: theme.projectCard, transform: "rotate(2deg)" }}
+                    >
+                        <img
+                            className="cartoon"
+                            src={require("../../assests/images/sketch3.png")}
+                            alt="sketch3"
+                            width="500px"
+                        />
+                        <p style={{ color: theme.thirdText }}>sketches for airplane seat screen redesign</p>
+                    </div>
+                </div>
+                <div className="skill-image-container-flex">
+                    <div
+                        className="skill-image-container"
+                        style={{ background: theme.projectCard, transform: "rotate(2deg)" }}
+                    >
+                        <img
+                            className="cartoon"
+                            src={require("../../assests/images/sketch6.png")}
+                            alt="sketch6"
+                            width="500px"
+                        />
+                        <p style={{ color: theme.thirdText }}>redesign of previous sketches</p>
+                    </div>
+                    <div
+                        className="skill-image-container"
+                        style={{ background: theme.projectCard, transform: "rotate(-2deg)" }}
+                    >
+                        <img
+                            className="cartoon"
+                            src={require("../../assests/images/sketch7.png")}
+                            alt="sketch7"
+                            width="500px"
+                        />
+                        <p style={{ color: theme.thirdText }}>redesign of previous sketches</p>
+                    </div>
+                </div>
+                <div className="greeting-title-div skills-title " style={{ display: "flex", justifyContent: "center" }}>
+                    <h1 className="greeting-text">In Conclusion...</h1>
+                    <h1 className="greeting-text waving">🔁</h1>
+                </div>
+                <p className="greeting-text-points-para paragraph" style={{ color: theme.thirdText }}>
+                    I have had to design things so many times in my life. And so have you. Yes, you! Maybe you haven't
+                </p>
             </div>
         </div>
     );

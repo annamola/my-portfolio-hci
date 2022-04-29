@@ -52,9 +52,9 @@ export default function Greeting(props) {
                             />
                             <p className="greeting-text-para paragraph" style={{ color: theme.thirdText }}>
                                 I've thoroughly examined my connection to design, what I've learned recently through
-                                recent projects, and I've come up with five main principles of my own design process.
-                                These five principles are crucial to my own design process and I believe to many others
-                                as well.
+                                recent projects, and I've come up with these main principles of my own design process.
+                                These principles are crucial to my own design process and I believe to many others as
+                                well.
                             </p>
 
                             <SocialMedia />
