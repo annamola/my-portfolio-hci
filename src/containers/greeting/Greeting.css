@@ -2,7 +2,7 @@
     width: 90%;
     padding: 0px 10px;
     margin: 0px auto;
-    margin-top: 4rem;
+    /* margin-top: 2rem; */
 }
 
 .greet-main {
@@ -15,7 +15,6 @@
 
 .greeting-main {
     display: flex;
-    /* text-align: center; */
 }
 
 .greeting-main > * {
